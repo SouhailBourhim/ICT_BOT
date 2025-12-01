@@ -3,8 +3,8 @@ Unit tests for semantic chunker functionality.
 """
 import unittest
 from datetime import datetime
-from models.base import DocumentMetadata, ContentType
-from processors.semantic_chunker import SemanticChunker, DocumentStructure
+from src.models.base import DocumentMetadata, ContentType
+from src.processors.semantic_chunker import SemanticChunker, DocumentStructure
 
 
 class TestSemanticChunker(unittest.TestCase):

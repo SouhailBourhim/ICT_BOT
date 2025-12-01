@@ -221,9 +221,9 @@ setup_config() {
     
     # Create .env file if it doesn't exist
     if [[ ! -f ".env" ]]; then
-        if [[ -f ".env.example" ]]; then
-            cp .env.example .env
-            log "Created .env from .env.example"
+        if [[ -f "config/.env.example" ]]; then
+            cp config/.env.example .env
+            log "Created .env from config/.env.example"
         else
             cat > .env << EOF
 # RAG System Configuration

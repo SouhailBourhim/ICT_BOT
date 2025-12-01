@@ -7,8 +7,8 @@ import os
 from datetime import datetime, timedelta
 from unittest.mock import patch
 
-from managers.conversation_manager import ConversationManager
-from models.base import Message, ConversationContext
+from src.managers.conversation_manager import ConversationManager
+from src.models.base import Message, ConversationContext
 
 
 class TestContextWindowManagement:

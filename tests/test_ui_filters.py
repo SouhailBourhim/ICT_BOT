@@ -13,7 +13,7 @@ from datetime import date
 # Add the project root to the path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from ui.filters import (
+from src.ui.filters import (
     DocumentType,
     DifficultyLevel,
     CourseModule,

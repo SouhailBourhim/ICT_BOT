@@ -1,0 +1,57 @@
+# Dockerfile specifically for document ingestion
+# Optimized for high-memory processing
+
+FROM python:3.10-slim
+
+# Set environment variables for ingestion
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    # Memory optimization
+    MALLOC_ARENA_MAX=2 \
+    PYTHONHASHSEED=0
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    gcc \
+    g++ \
+    sqlite3 \
+    libsqlite3-dev \
+    curl \
+    wget \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+# Create app user
+RUN groupadd -r appuser && useradd -r -g appuser appuser
+
+# Create application directory
+WORKDIR /app
+
+# Copy requirements and install Python dependencies
+COPY requirements.txt .
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
+
+# Copy application code
+COPY . .
+
+# Create necessary directories with proper permissions
+RUN mkdir -p \
+    data/documents \
+    data/vocabulary \
+    chroma \
+    logs \
+    export \
+    && chown -R appuser:appuser /app
+
+# Switch to app user
+USER appuser
+
+# Create ingestion configuration
+COPY deployment/docker/ingestion.env config/.env
+
+# Default command for ingestion
+CMD ["python", "ingest_enhanced.py", "--directory", "/app/data/documents"]

@@ -5,8 +5,8 @@ import unittest
 from datetime import datetime
 from typing import List
 
-from models.base import ProcessedChunk, ContentType, RetrievalResult
-from retrievers.bm25_retriever import BM25Retriever
+from src.models.base import ProcessedChunk, ContentType, RetrievalResult
+from src.retrievers.bm25_retriever import BM25Retriever
 
 
 class TestBM25Retriever(unittest.TestCase):

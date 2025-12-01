@@ -1,0 +1,93 @@
+IMPORT DEPENDENCY ANALYSIS
+==================================================
+
+Generated: 2025-12-01T15:02:56.298536
+Root Directory: /Users/apple/Desktop/ICT_BOT
+
+STATISTICS
+---------------
+Total Files: 163
+Total Imports: 1885
+Files With Dependencies: 120
+Files With Dependents: 32
+Circular Dependencies: 0
+External Packages: 50
+
+FILES WITH MOST DEPENDENCIES
+------------------------------
+app.py: 12 dependencies
+backup/reorganization_backup_20251201_150255/app.py: 12 dependencies
+integration_setup.py: 7 dependencies
+backup/reorganization_backup_20251201_150255/integration_setup.py: 7 dependencies
+tests/test_performance_benchmarks.py: 6 dependencies
+tests/test_end_to_end_workflows.py: 6 dependencies
+backup/reorganization_backup_20251201_150255/tests/test_performance_benchmarks.py: 6 dependencies
+backup/reorganization_backup_20251201_150255/tests/test_end_to_end_workflows.py: 6 dependencies
+tests/test_load_testing.py: 5 dependencies
+backup/reorganization_backup_20251201_150255/tests/test_load_testing.py: 5 dependencies
+
+FILES WITH MOST DEPENDENTS
+----------------------------
+models/base.py: 66 dependents
+config/settings.py: 28 dependents
+managers/conversation_manager.py: 14 dependents
+managers/query_enhancer.py: 13 dependents
+managers/response_manager.py: 12 dependents
+core/system.py: 12 dependents
+managers/analytics_manager.py: 12 dependents
+ui/components.py: 10 dependents
+retrievers/hybrid_retriever.py: 10 dependents
+ui/filters.py: 8 dependents
+
+EXTERNAL PACKAGES
+-----------------
+abc
+argparse
+ast
+asyncio
+chromadb
+collections
+concurrent
+contextlib
+dataclasses
+datetime
+dateutil
+difflib
+enum
+functools
+hashlib
+json
+langchain
+langchain_chroma
+langchain_community
+langchain_ollama
+logging
+math
+os
+pathlib
+pickle
+psutil
+pypdf
+pytest
+queue
+random
+rank_bm25
+re
+requests
+shutil
+sqlite3
+stat
+statistics
+streamlit
+string
+subprocess
+sys
+tempfile
+threading
+time
+traceback
+typing
+unicodedata
+unittest
+uuid
+warnings

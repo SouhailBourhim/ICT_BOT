@@ -9,8 +9,8 @@ import unittest
 from datetime import datetime, timedelta
 from unittest.mock import patch, MagicMock
 
-from managers.analytics_manager import AnalyticsManager
-from models.base import (
+from src.managers.analytics_manager import AnalyticsManager
+from src.models.base import (
     Response, RetrievalResult, ProcessedChunk, DocumentMetadata, 
     ContentType, QueryIntent
 )
@@ -365,7 +365,7 @@ class TestAnalyticsManager(unittest.TestCase):
         # Verify results (may be empty due to date grouping in SQLite)
         self.assertIsInstance(trends, list)
     
-    @patch('managers.analytics_manager.logger')
+    @patch('src.managers.analytics_manager.logger')
     def test_error_handling(self, mock_logger):
         """Test error handling in analytics operations."""
         # Test with corrupted database operations

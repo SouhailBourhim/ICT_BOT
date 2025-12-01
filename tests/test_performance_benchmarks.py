@@ -10,12 +10,12 @@ import threading
 from unittest.mock import Mock, patch
 from contextlib import contextmanager
 
-from core.system import RAGSystem
-from processors.ingestion_pipeline import IngestionPipeline
-from retrievers.hybrid_retriever import HybridRetriever
-from managers.query_enhancer import QueryEnhancer
-from managers.response_manager import ResponseManager
-from managers.conversation_manager import ConversationManager
+from src.core.system import RAGSystem
+from src.processors.ingestion_pipeline import IngestionPipeline
+from src.retrievers.hybrid_retriever import HybridRetriever
+from src.managers.query_enhancer import QueryEnhancer
+from src.managers.response_manager import ResponseManager
+from src.managers.conversation_manager import ConversationManager
 
 
 class PerformanceBenchmarks:

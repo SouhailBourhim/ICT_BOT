@@ -1,0 +1,106 @@
+version: '3.8'
+
+services:
+  # Ollama service for embeddings
+  ollama-ingestion:
+    image: ollama/ollama:latest
+    container_name: rag-ingestion-ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_ingestion_data:/root/.ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_KEEP_ALIVE=24h  # Keep models loaded longer during ingestion
+    restart: unless-stopped
+    networks:
+      - ingestion-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+    # Resource limits for high-memory machine
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+        reservations:
+          memory: 4G
+
+  # Ingestion service
+  rag-ingestion:
+    build:
+      context: ../..
+      dockerfile: deployment/docker/Dockerfile.ingestion
+    container_name: rag-ingestion-processor
+    volumes:
+      # Mount directories for data exchange
+      - ./documents:/app/data/documents:ro  # Read-only documents
+      - ingestion_output:/app/export        # Export processed data
+      - ingestion_chroma:/app/chroma        # Vector database
+      - ingestion_data:/app/data           # Metadata databases
+      - ingestion_logs:/app/logs           # Logs
+    environment:
+      - ENVIRONMENT=ingestion
+      - LOG_LEVEL=INFO
+      - OLLAMA_BASE_URL=http://ollama-ingestion:11434
+      - OLLAMA_MODEL=llama3
+      - CHROMA_PATH=/app/chroma
+      - METADATA_DB_PATH=/app/data/metadata.db
+      - BATCH_SIZE=5  # Smaller batches for memory efficiency
+      - MAX_CHUNK_SIZE=1500  # Smaller chunks for memory efficiency
+    depends_on:
+      ollama-ingestion:
+        condition: service_healthy
+    restart: "no"  # Don't restart automatically
+    networks:
+      - ingestion-network
+    # Resource limits for high-memory processing
+    deploy:
+      resources:
+        limits:
+          memory: 16G
+        reservations:
+          memory: 8G
+    # Override command for different ingestion modes
+    # command: ["python", "ingest_enhanced.py", "--directory", "/app/data/documents", "--batch-size", "3"]
+
+  # Data export service
+  data-exporter:
+    build:
+      context: ../..
+      dockerfile: deployment/docker/Dockerfile.ingestion
+    container_name: rag-data-exporter
+    volumes:
+      - ingestion_chroma:/app/chroma:ro     # Read-only access to processed data
+      - ingestion_data:/app/data:ro         # Read-only access to metadata
+      - ingestion_output:/app/export        # Export directory
+    environment:
+      - ENVIRONMENT=export
+      - LOG_LEVEL=INFO
+    command: ["python", "scripts/export_ingestion_data.py"]
+    depends_on:
+      - rag-ingestion
+    restart: "no"
+    networks:
+      - ingestion-network
+    profiles:
+      - export  # Only run when explicitly requested
+
+volumes:
+  ollama_ingestion_data:
+    driver: local
+  ingestion_chroma:
+    driver: local
+  ingestion_data:
+    driver: local
+  ingestion_logs:
+    driver: local
+  ingestion_output:
+    driver: local
+
+networks:
+  ingestion-network:
+    driver: bridge

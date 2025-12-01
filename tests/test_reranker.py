@@ -4,8 +4,8 @@ Unit tests for result fusion and re-ranking system.
 import unittest
 from datetime import datetime
 
-from models.base import ProcessedChunk, ContentType, RetrievalResult
-from retrievers.reranker import HybridReRanker
+from src.models.base import ProcessedChunk, ContentType, RetrievalResult
+from src.retrievers.reranker import HybridReRanker
 
 
 class TestHybridReRanker(unittest.TestCase):

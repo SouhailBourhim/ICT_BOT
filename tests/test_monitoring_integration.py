@@ -8,9 +8,9 @@ import unittest
 from datetime import datetime, timedelta
 from unittest.mock import patch, MagicMock
 
-from managers.analytics_manager import AnalyticsManager
-from managers.performance_monitor import PerformanceMonitor, PerformanceTracker, AlertLevel
-from models.base import Response, RetrievalResult, ProcessedChunk, ContentType
+from src.managers.analytics_manager import AnalyticsManager
+from src.managers.performance_monitor import PerformanceMonitor, PerformanceTracker, AlertLevel
+from src.models.base import Response, RetrievalResult, ProcessedChunk, ContentType
 
 
 class TestMonitoringIntegration(unittest.TestCase):
@@ -109,7 +109,7 @@ class TestMonitoringIntegration(unittest.TestCase):
         # Stop monitoring
         self.performance_monitor.stop_monitoring()
     
-    @patch('managers.performance_monitor.psutil')
+    @patch('src.managers.performance_monitor.psutil')
     def test_alert_generation_and_handling(self, mock_psutil):
         """Test alert generation and handling under stress conditions."""
         # Mock high resource usage
@@ -344,7 +344,7 @@ class TestMonitoringIntegration(unittest.TestCase):
             # Simulate operations over time
             operation_time = base_time + timedelta(minutes=i)
             
-            with patch('managers.analytics_manager.datetime') as mock_datetime:
+            with patch('src.managers.analytics_manager.datetime') as mock_datetime:
                 mock_datetime.now.return_value = operation_time
                 mock_datetime.side_effect = lambda *args, **kw: datetime(*args, **kw)
                 

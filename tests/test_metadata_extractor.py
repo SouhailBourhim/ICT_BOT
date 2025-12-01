@@ -6,8 +6,8 @@ import tempfile
 import os
 from datetime import datetime
 from pathlib import Path
-from models.base import ContentType
-from processors.metadata_extractor import MetadataExtractor
+from src.models.base import ContentType
+from src.processors.metadata_extractor import MetadataExtractor
 
 
 class TestMetadataExtractor(unittest.TestCase):

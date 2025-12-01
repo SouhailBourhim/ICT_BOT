@@ -8,11 +8,11 @@ import unittest
 from datetime import datetime
 from unittest.mock import patch, MagicMock
 
-from managers.performance_monitor import (
+from src.managers.performance_monitor import (
     PerformanceMonitor, PerformanceTracker, AlertLevel, 
     PerformanceThreshold, Alert, default_alert_handler
 )
-from managers.analytics_manager import AnalyticsManager
+from src.managers.analytics_manager import AnalyticsManager
 
 
 class TestPerformanceMonitor(unittest.TestCase):
@@ -64,7 +64,7 @@ class TestPerformanceMonitor(unittest.TestCase):
         self.assertEqual(len(self.performance_monitor.alert_callbacks), callback_count + 1)
         self.assertIn(new_callback, self.performance_monitor.alert_callbacks)
     
-    @patch('managers.performance_monitor.psutil')
+    @patch('src.managers.performance_monitor.psutil')
     def test_system_metrics_collection(self, mock_psutil):
         """Test system metrics collection."""
         # Mock psutil functions
@@ -172,7 +172,7 @@ class TestPerformanceMonitor(unittest.TestCase):
         self.assertEqual(alert.current_value, 75.0)
         self.assertEqual(alert.threshold_value, 70.0)
     
-    @patch('managers.performance_monitor.psutil')
+    @patch('src.managers.performance_monitor.psutil')
     def test_threshold_checking(self, mock_psutil):
         """Test threshold checking and alert generation."""
         # Mock high CPU usage
@@ -198,7 +198,7 @@ class TestPerformanceMonitor(unittest.TestCase):
         self.assertEqual(alert.level, AlertLevel.CRITICAL)
         self.assertEqual(alert.metric_name, 'cpu_usage')
     
-    @patch('managers.performance_monitor.psutil')
+    @patch('src.managers.performance_monitor.psutil')
     def test_system_health_status(self, mock_psutil):
         """Test system health status reporting."""
         # Mock normal system metrics
@@ -334,7 +334,7 @@ class TestPerformanceMonitor(unittest.TestCase):
             self.performance_monitor.cache_max_size
         )
     
-    @patch('managers.performance_monitor.logger')
+    @patch('src.managers.performance_monitor.logger')
     def test_error_handling(self, mock_logger):
         """Test error handling in performance monitoring."""
         # Test with exception in metrics collection

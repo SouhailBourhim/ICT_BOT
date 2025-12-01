@@ -9,7 +9,7 @@ import threading
 from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 
-from utils.health_monitor import (
+from src.utils.health_monitor import (
     HealthMonitor,
     DatabaseHealthChecker,
     ExternalServiceHealthChecker,
@@ -19,7 +19,7 @@ from utils.health_monitor import (
     ComponentType,
     setup_default_health_monitoring
 )
-from utils.error_handler import (
+from src.utils.error_handler import (
     ErrorHandler,
     ServiceUnavailableError,
     DatabaseError,
@@ -266,12 +266,12 @@ class TestSystemRecoveryIntegration:
             def check_health(self):
                 service_health_calls.append(call_count)
                 if call_count >= 3:
-                    from utils.health_monitor import HealthCheckResult, HealthStatus
+                    from src.utils.health_monitor import HealthCheckResult, HealthStatus
                     return HealthCheckResult(
                         self.name, self.component_type, HealthStatus.HEALTHY, "OK", 10.0
                     )
                 else:
-                    from utils.health_monitor import HealthCheckResult, HealthStatus
+                    from src.utils.health_monitor import HealthCheckResult, HealthStatus
                     return HealthCheckResult(
                         self.name, self.component_type, HealthStatus.CRITICAL, "Failing", 0.0
                     )
@@ -301,7 +301,7 @@ class TestSystemRecoveryIntegration:
                 nonlocal check_count
                 check_count += 1
                 
-                from utils.health_monitor import HealthCheckResult, HealthStatus
+                from src.utils.health_monitor import HealthCheckResult, HealthStatus
                 if check_count % 2 == 0:
                     return HealthCheckResult(
                         self.name, self.component_type, HealthStatus.HEALTHY, "OK", 10.0

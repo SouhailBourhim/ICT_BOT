@@ -5,8 +5,8 @@ import pytest
 from datetime import datetime, timedelta
 from unittest.mock import patch
 
-from managers.followup_detector import FollowUpDetector
-from models.base import Message, ConversationContext
+from src.managers.followup_detector import FollowUpDetector
+from src.models.base import Message, ConversationContext
 
 
 class TestFollowUpDetector:

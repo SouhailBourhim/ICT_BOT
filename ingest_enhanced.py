@@ -10,7 +10,7 @@ from pathlib import Path
 # Add current directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from processors.ingestion_pipeline import IngestionPipeline
+from src.processors.ingestion_pipeline import IngestionPipeline
 
 
 def main():

@@ -1,0 +1,13 @@
+{
+  "enable_conversation_memory": false,
+  "enable_followup_detection": false,
+  "enable_query_expansion": true,
+  "enable_spell_correction": true,
+  "enable_hybrid_search": false,
+  "enable_reranking": false,
+  "enable_source_attribution": true,
+  "enable_confidence_scoring": false,
+  "enable_query_analytics": false,
+  "enable_performance_monitoring": false,
+  "enable_enhanced_ui": true
+}

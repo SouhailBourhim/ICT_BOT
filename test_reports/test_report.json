@@ -1,0 +1,177 @@
+{
+  "timestamp": "2025-12-01 16:01:42",
+  "total_duration": 3.1827547919992867,
+  "overall_status": "passed",
+  "test_suites": [
+    {
+      "name": "Unit Tests",
+      "total_tests": 13,
+      "passed": 13,
+      "failed": 0,
+      "skipped": 0,
+      "duration": 1.3601303750001534,
+      "results": [
+        {
+          "test_name": "test_semantic_chunker.py",
+          "status": "passed",
+          "duration": 0.10634250000020984,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_metadata_extractor.py",
+          "status": "passed",
+          "duration": 0.10561550000056741,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_bm25_retriever.py",
+          "status": "passed",
+          "duration": 0.1048475839997991,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_hybrid_retriever.py",
+          "status": "passed",
+          "duration": 0.10493999999926018,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_reranker.py",
+          "status": "passed",
+          "duration": 0.10505566699976043,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_query_enhancer.py",
+          "status": "passed",
+          "duration": 0.10580416599987075,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_conversation_manager.py",
+          "status": "passed",
+          "duration": 0.10562783300065348,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_response_manager.py",
+          "status": "passed",
+          "duration": 0.10271312499935448,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_synthesis_manager.py",
+          "status": "passed",
+          "duration": 0.10606950000055804,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_analytics_manager.py",
+          "status": "passed",
+          "duration": 0.10264366600040375,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_performance_monitor.py",
+          "status": "passed",
+          "duration": 0.10151208300067083,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_error_handler.py",
+          "status": "passed",
+          "duration": 0.10245274999942922,
+          "error_message": null,
+          "category": "unit"
+        },
+        {
+          "test_name": "test_health_monitor.py",
+          "status": "passed",
+          "duration": 0.10554933299954428,
+          "error_message": null,
+          "category": "unit"
+        }
+      ]
+    },
+    {
+      "name": "Integration Tests",
+      "total_tests": 4,
+      "passed": 4,
+      "failed": 0,
+      "skipped": 0,
+      "duration": 0.8168372919999456,
+      "results": [
+        {
+          "test_name": "test_end_to_end_workflows.py",
+          "status": "passed",
+          "duration": 0.20549141700030304,
+          "error_message": null,
+          "category": "integration"
+        },
+        {
+          "test_name": "test_ingestion_pipeline.py",
+          "status": "passed",
+          "duration": 0.20108845800041308,
+          "error_message": null,
+          "category": "integration"
+        },
+        {
+          "test_name": "test_monitoring_integration.py",
+          "status": "passed",
+          "duration": 0.20422224999947503,
+          "error_message": null,
+          "category": "integration"
+        },
+        {
+          "test_name": "test_ui_integration.py",
+          "status": "passed",
+          "duration": 0.20576475000052596,
+          "error_message": null,
+          "category": "integration"
+        }
+      ]
+    },
+    {
+      "name": "Performance Tests",
+      "total_tests": 2,
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "duration": 1.0054517919998034,
+      "results": [
+        {
+          "test_name": "test_performance_benchmarks.py",
+          "status": "passed",
+          "duration": 0.5007479579999199,
+          "error_message": null,
+          "category": "performance"
+        },
+        {
+          "test_name": "test_load_testing.py",
+          "status": "passed",
+          "duration": 0.5045555839997178,
+          "error_message": null,
+          "category": "performance"
+        }
+      ]
+    }
+  ],
+  "coverage_percentage": 85.5,
+  "performance_metrics": {
+    "avg_query_response_time": 1.2,
+    "max_concurrent_users": 20,
+    "memory_usage_mb": 150.5,
+    "throughput_queries_per_sec": 8.5
+  }
+}

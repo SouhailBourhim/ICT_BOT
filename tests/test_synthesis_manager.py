@@ -6,11 +6,11 @@ from unittest.mock import Mock, patch
 from datetime import datetime, timedelta
 from typing import List
 
-from managers.synthesis_manager import (
+from src.managers.synthesis_manager import (
     SynthesisManager, ConflictType, SourceConflict, 
     SourceReliability, SynthesisResult
 )
-from models.base import (
+from src.models.base import (
     RetrievalResult, ProcessedChunk, DocumentMetadata, ContentType
 )
 
@@ -21,7 +21,7 @@ class TestSynthesisManager:
     @pytest.fixture
     def synthesis_manager(self):
         """SynthesisManager instance for testing."""
-        with patch('managers.synthesis_manager.get_settings') as mock_settings:
+        with patch('src.managers.synthesis_manager.get_settings') as mock_settings:
             mock_config = Mock()
             mock_settings.return_value = mock_config
             return SynthesisManager()

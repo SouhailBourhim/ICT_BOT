@@ -11,11 +11,11 @@ import statistics
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from unittest.mock import Mock, patch
 
-from core.system import RAGSystem
-from managers.conversation_manager import ConversationManager
-from managers.query_enhancer import QueryEnhancer
-from retrievers.hybrid_retriever import HybridRetriever
-from managers.response_manager import ResponseManager
+from src.core.system import RAGSystem
+from src.managers.conversation_manager import ConversationManager
+from src.managers.query_enhancer import QueryEnhancer
+from src.retrievers.hybrid_retriever import HybridRetriever
+from src.managers.response_manager import ResponseManager
 
 
 class LoadTestScenarios:

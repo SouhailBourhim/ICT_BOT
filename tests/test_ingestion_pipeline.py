@@ -7,8 +7,8 @@ import os
 import shutil
 import sqlite3
 from pathlib import Path
-from processors.ingestion_pipeline import IngestionPipeline
-from processors.document_processor import DocumentProcessor
+from src.processors.ingestion_pipeline import IngestionPipeline
+from src.processors.document_processor import DocumentProcessor
 
 
 class TestIngestionPipeline(unittest.TestCase):

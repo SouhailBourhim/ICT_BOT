@@ -10,8 +10,8 @@ import json
 from unittest.mock import Mock, patch, MagicMock
 from datetime import datetime
 
-from models.base import ProcessedChunk, ContentType, RetrievalResult
-from retrievers.hybrid_retriever import HybridRetriever, SemanticRetriever
+from src.models.base import ProcessedChunk, ContentType, RetrievalResult
+from src.retrievers.hybrid_retriever import HybridRetriever, SemanticRetriever
 
 
 class TestSemanticRetriever(unittest.TestCase):
@@ -26,8 +26,8 @@ class TestSemanticRetriever(unittest.TestCase):
         """Clean up test fixtures."""
         shutil.rmtree(self.temp_dir, ignore_errors=True)
     
-    @patch('retrievers.hybrid_retriever.Chroma')
-    @patch('retrievers.hybrid_retriever.OllamaEmbeddings')
+    @patch('src.retrievers.hybrid_retriever.Chroma')
+    @patch('src.retrievers.hybrid_retriever.OllamaEmbeddings')
     def test_semantic_retriever_initialization(self, mock_embeddings, mock_chroma):
         """Test semantic retriever initialization."""
         # Mock ChromaDB not existing
@@ -177,8 +177,8 @@ class TestHybridRetriever(unittest.TestCase):
         conn.commit()
         conn.close()
     
-    @patch('retrievers.hybrid_retriever.SemanticRetriever')
-    @patch('retrievers.hybrid_retriever.BM25Retriever')
+    @patch('src.retrievers.hybrid_retriever.SemanticRetriever')
+    @patch('src.retrievers.hybrid_retriever.BM25Retriever')
     def test_hybrid_retriever_initialization(self, mock_bm25, mock_semantic):
         """Test hybrid retriever initialization."""
         retriever = HybridRetriever(
@@ -236,8 +236,8 @@ class TestHybridRetriever(unittest.TestCase):
         strategy = retriever._determine_search_strategy("wireless communication protocols")
         self.assertEqual(strategy, "hybrid")
     
-    @patch('retrievers.hybrid_retriever.SemanticRetriever')
-    @patch('retrievers.hybrid_retriever.BM25Retriever')
+    @patch('src.retrievers.hybrid_retriever.SemanticRetriever')
+    @patch('src.retrievers.hybrid_retriever.BM25Retriever')
     def test_hybrid_search_flow(self, mock_bm25_class, mock_semantic_class):
         """Test complete hybrid search flow."""
         # Mock retrievers
@@ -308,8 +308,8 @@ class TestHybridRetriever(unittest.TestCase):
         self.assertEqual(db_stats["documents"], 0)  # No documents in test DB
         self.assertEqual(db_stats["chunks"], 4)     # 4 test chunks
     
-    @patch('retrievers.hybrid_retriever.SemanticRetriever')
-    @patch('retrievers.hybrid_retriever.BM25Retriever')
+    @patch('src.retrievers.hybrid_retriever.SemanticRetriever')
+    @patch('src.retrievers.hybrid_retriever.BM25Retriever')
     def test_retrieve_with_filters(self, mock_bm25_class, mock_semantic_class):
         """Test retrieval with metadata filters."""
         # Mock retrievers
@@ -347,8 +347,8 @@ class TestHybridRetriever(unittest.TestCase):
         chunks = retriever._load_chunks_from_metadata_db()
         self.assertEqual(len(chunks), 0)
     
-    @patch('retrievers.hybrid_retriever.SemanticRetriever')
-    @patch('retrievers.hybrid_retriever.BM25Retriever')
+    @patch('src.retrievers.hybrid_retriever.SemanticRetriever')
+    @patch('src.retrievers.hybrid_retriever.BM25Retriever')
     def test_refresh_indexes(self, mock_bm25_class, mock_semantic_class):
         """Test index refresh functionality."""
         mock_semantic = Mock()
@@ -418,7 +418,7 @@ class TestHybridRetrieverIntegration(unittest.TestCase):
     def test_bm25_only_integration(self):
         """Test BM25-only retrieval integration."""
         # Create retriever with mocked semantic component
-        with patch('retrievers.hybrid_retriever.SemanticRetriever') as mock_semantic_class:
+        with patch('src.retrievers.hybrid_retriever.SemanticRetriever') as mock_semantic_class:
             mock_semantic = Mock()
             mock_semantic.db = None  # Simulate ChromaDB not available
             mock_semantic_class.return_value = mock_semantic
@@ -475,7 +475,7 @@ class TestHybridRetrieverIntegration(unittest.TestCase):
         ]
         
         # Create retriever and test fusion
-        with patch('retrievers.hybrid_retriever.SemanticRetriever'):
+        with patch('src.retrievers.hybrid_retriever.SemanticRetriever'):
             retriever = HybridRetriever(
                 chroma_path=self.chroma_path,
                 metadata_db_path=self.metadata_db_path

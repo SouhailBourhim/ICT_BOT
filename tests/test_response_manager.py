@@ -6,8 +6,8 @@ from unittest.mock import Mock, patch, MagicMock
 from datetime import datetime
 from typing import List
 
-from managers.response_manager import ResponseManager
-from models.base import (
+from src.managers.response_manager import ResponseManager
+from src.models.base import (
     Response, RetrievalResult, ProcessedChunk, DocumentMetadata, 
     ConversationContext, Message, ContentType
 )
@@ -115,8 +115,8 @@ class TestResponseManager:
     @pytest.fixture
     def response_manager(self):
         """ResponseManager instance for testing."""
-        with patch('managers.response_manager.ChatOllama'):
-            with patch('managers.response_manager.get_settings') as mock_settings:
+        with patch('src.managers.response_manager.ChatOllama'):
+            with patch('src.managers.response_manager.get_settings') as mock_settings:
                 mock_config = Mock()
                 mock_config.model.ollama_model = "llama3"
                 mock_settings.return_value = mock_config
@@ -230,7 +230,7 @@ class TestResponseManager:
         assert "Le protocole TCP garantit" in synthesis_content
         assert "UDP est un protocole" in synthesis_content
     
-    @patch('managers.response_manager.ChatOllama')
+    @patch('src.managers.response_manager.ChatOllama')
     def test_generate_response_success(self, mock_ollama, sample_retrieval_results, 
                                      sample_conversation_context, mock_llm_response):
         """Test successful response generation."""
@@ -239,7 +239,7 @@ class TestResponseManager:
         mock_llm.invoke.return_value = mock_llm_response
         mock_ollama.return_value = mock_llm
         
-        with patch('managers.response_manager.get_settings') as mock_settings:
+        with patch('src.managers.response_manager.get_settings') as mock_settings:
             mock_config = Mock()
             mock_config.model.ollama_model = "llama3"
             mock_settings.return_value = mock_config
@@ -290,7 +290,7 @@ class TestResponseManager:
         synthesis = response_manager.synthesize_sources([])
         assert synthesis == ""
     
-    @patch('managers.response_manager.ChatOllama')
+    @patch('src.managers.response_manager.ChatOllama')
     def test_generate_response_error_handling(self, mock_ollama, sample_retrieval_results):
         """Test error handling in response generation."""
         # Setup mock to raise exception
@@ -298,7 +298,7 @@ class TestResponseManager:
         mock_llm.invoke.side_effect = Exception("LLM Error")
         mock_ollama.return_value = mock_llm
         
-        with patch('managers.response_manager.get_settings') as mock_settings:
+        with patch('src.managers.response_manager.get_settings') as mock_settings:
             mock_config = Mock()
             mock_config.model.ollama_model = "llama3"
             mock_settings.return_value = mock_config

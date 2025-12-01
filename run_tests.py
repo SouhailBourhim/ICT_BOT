@@ -77,6 +77,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "-m", "unit or not (integration or performance or load)",
             "--tb=short",
             f"--html={self.reports_dir}/unit_tests.html",
@@ -98,6 +99,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "-m", "integration",
             "--tb=short",
             f"--html={self.reports_dir}/integration_tests.html",
@@ -116,6 +118,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "-m", "performance",
             "--tb=short",
             f"--html={self.reports_dir}/performance_tests.html",
@@ -135,6 +138,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "-m", "load",
             "--tb=short",
             f"--html={self.reports_dir}/load_tests.html",
@@ -154,6 +158,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "-m", "smoke",
             "--tb=line",
             f"--junit-xml={self.reports_dir}/smoke_tests.xml"
@@ -170,6 +175,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             "--tb=short",
             f"--html={self.reports_dir}/all_tests.html",
             "--self-contained-html",
@@ -191,6 +197,7 @@ class TestRunner:
         
         cmd = [
             sys.executable, "-m", "pytest",
+            "-c", "config/pytest.ini",
             test_path,
             "--tb=short"
         ]

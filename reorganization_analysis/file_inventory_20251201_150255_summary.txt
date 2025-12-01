@@ -1,0 +1,83 @@
+PROJECT FILE INVENTORY SUMMARY
+==================================================
+
+Generated: 2025-12-01T15:02:55.970795
+Root Directory: /Users/apple/Desktop/ICT_BOT
+
+SUMMARY STATISTICS
+--------------------
+Total Files: 311
+Total Directories: 64
+
+FILES BY TYPE
+---------------
+configuration  :  34 files (0.1 MB)
+data           :  11 files (0.8 MB)
+documentation  :  42 files (0.3 MB)
+other          :  41 files (21.6 MB)
+python         : 163 files (2.0 MB)
+script         :  20 files (0.1 MB)
+
+FILE EXTENSIONS
+---------------
+.py       : 163 files
+.md       :  38 files
+.pdf      :  26 files
+.json     :  23 files
+.sh       :  20 files
+.db       :   8 files
+.env      :   6 files
+.txt      :   4 files
+.yml      :   4 files
+.sqlite3  :   3 files
+.ini      :   2 files
+.simple   :   2 files
+.example  :   2 files
+.log      :   2 files
+.conf     :   2 files
+
+LARGE FILES (>1MB)
+--------------------
+Slides_Techniques_Communications_Mobiles_Part1.pdf: 2.7 MB
+Slides_Techniques_Communications_Mobiles_Part1.pdf: 2.7 MB
+2_Rayleigh_Channels_Part1.pdf : 2.5 MB
+2_Rayleigh_Channels_Part1.pdf : 2.5 MB
+1_Wireless_Communications_A_Goldsmith_(Ch.1__Ch.3).pdf: 2.4 MB
+1_Wireless_Communications_A_Goldsmith_(Ch.1__Ch.3).pdf: 2.4 MB
+Slides_Techniques_Communications_Mobiles_Part2.pdf: 1.3 MB
+Slides_Techniques_Communications_Mobiles_Part2.pdf: 1.3 MB
+
+EXECUTABLE FILES
+---------------
+/Users/apple/Desktop/ICT_BOT/start_enhanced_system.sh
+/Users/apple/Desktop/ICT_BOT/ingest_enhanced.py
+/Users/apple/Desktop/ICT_BOT/start-docker.sh
+/Users/apple/Desktop/ICT_BOT/test_app_startup.py
+/Users/apple/Desktop/ICT_BOT/build-docker.sh
+/Users/apple/Desktop/ICT_BOT/system_status.py
+/Users/apple/Desktop/ICT_BOT/docker-troubleshoot.sh
+/Users/apple/Desktop/ICT_BOT/health-check.sh
+/Users/apple/Desktop/ICT_BOT/fix-docker-desktop.sh
+/Users/apple/Desktop/ICT_BOT/quick-docker-check.sh
+/Users/apple/Desktop/ICT_BOT/deployment/scripts/setup.sh
+/Users/apple/Desktop/ICT_BOT/deployment/scripts/deploy.sh
+/Users/apple/Desktop/ICT_BOT/scripts/reorganization_prep.py
+/Users/apple/Desktop/ICT_BOT/scripts/backup_project.py
+/Users/apple/Desktop/ICT_BOT/scripts/import_analyzer.py
+/Users/apple/Desktop/ICT_BOT/scripts/file_inventory.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/start_enhanced_system.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/ingest_enhanced.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/start-docker.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/test_app_startup.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/build-docker.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/system_status.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/docker-troubleshoot.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/health-check.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/fix-docker-desktop.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/quick-docker-check.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/deployment/scripts/setup.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/deployment/scripts/deploy.sh
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/scripts/reorganization_prep.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/scripts/import_analyzer.py
+/Users/apple/Desktop/ICT_BOT/backup/reorganization_backup_20251201_150255/scripts/file_inventory.py
+

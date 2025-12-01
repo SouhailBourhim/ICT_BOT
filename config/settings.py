@@ -5,6 +5,10 @@ import os
 from typing import Any, Dict, Optional
 from dataclasses import dataclass, field
 from pathlib import Path
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv(Path(__file__).parent / '.env')
 
 
 @dataclass

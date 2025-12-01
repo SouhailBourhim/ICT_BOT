@@ -12,7 +12,7 @@ import os
 # Add the project root to the path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from ui.components import (
+from src.ui.components import (
     AutoCompleteComponent, 
     FormulaRenderer, 
     ExpandableResponse, 
@@ -216,7 +216,7 @@ Content 2"""
         mock_expander.return_value.__enter__ = Mock()
         mock_expander.return_value.__exit__ = Mock()
         
-        with patch('ui.components.FormulaRenderer.detect_and_render_content') as mock_render:
+        with patch('src.ui.components.FormulaRenderer.detect_and_render_content') as mock_render:
             response.render_expandable_sections()
             mock_render.assert_called_once_with(text)
     
@@ -236,7 +236,7 @@ Content 2"""
         mock_expander.return_value.__enter__ = Mock()
         mock_expander.return_value.__exit__ = Mock()
         
-        with patch('ui.components.FormulaRenderer.detect_and_render_content'):
+        with patch('src.ui.components.FormulaRenderer.detect_and_render_content'):
             response.render_expandable_sections()
             assert mock_expander.call_count == 2
 
@@ -254,7 +254,7 @@ class TestUIComponentManager:
         assert hasattr(self.ui_manager, 'autocomplete')
         assert hasattr(self.ui_manager, 'formula_renderer')
     
-    @patch('ui.components.AutoCompleteComponent.render_autocomplete_input')
+    @patch('src.ui.components.AutoCompleteComponent.render_autocomplete_input')
     def test_render_enhanced_input(self, mock_render):
         """Test enhanced input rendering"""
         mock_render.return_value = "test query"
@@ -262,7 +262,7 @@ class TestUIComponentManager:
         mock_render.assert_called_once_with("test_key")
         assert result == "test query"
     
-    @patch('ui.components.ExpandableResponse')
+    @patch('src.ui.components.ExpandableResponse')
     def test_render_enhanced_response(self, mock_expandable):
         """Test enhanced response rendering"""
         mock_instance = Mock()

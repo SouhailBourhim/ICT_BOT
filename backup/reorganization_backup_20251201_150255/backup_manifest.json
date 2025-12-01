@@ -1,0 +1,1232 @@
+{
+  "timestamp": "20251201_150255",
+  "source_directory": "/Users/apple/Desktop/ICT_BOT",
+  "backup_directory": "backup/reorganization_backup_20251201_150255",
+  "files": [
+    {
+      "original_path": "demo_ui_enhancements.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/demo_ui_enhancements.py",
+      "relative_path": "demo_ui_enhancements.py",
+      "size": 9391,
+      "hash": "5eaacab245b425b06cfdfe805f7a08453812f8e662fa7f1c9cb338f108cd4eff",
+      "modified_time": 1764585986.4377637
+    },
+    {
+      "original_path": "start_enhanced_system.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/start_enhanced_system.sh",
+      "relative_path": "start_enhanced_system.sh",
+      "size": 2262,
+      "hash": "3a7e9d4f357350eb38a30af27801587199c7bf64a8c5166d841008ea98625563",
+      "modified_time": 1764590038.6807833
+    },
+    {
+      "original_path": "README_ENHANCED.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/README_ENHANCED.md",
+      "relative_path": "README_ENHANCED.md",
+      "size": 5654,
+      "hash": "ced1f28ac126bb9b141a24319336e8be79fe0f042b6a6f95eccabb20d73c6007",
+      "modified_time": 1764578157.4425085
+    },
+    {
+      "original_path": "final_integration_report.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/final_integration_report.json",
+      "relative_path": "final_integration_report.json",
+      "size": 1537,
+      "hash": "ddf2cd0acb6098e289370bafa50d2869afdff624f03d65c6cd62bec90aeacdde",
+      "modified_time": 1764589859.3788717
+    },
+    {
+      "original_path": "ingest.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ingest.py",
+      "relative_path": "ingest.py",
+      "size": 1889,
+      "hash": "68b65eb9f7d5371b2d3c38e7fe6fdbb84d71207db2a5c503d1d9e3aee49c5c06",
+      "modified_time": 1763915516.9034035
+    },
+    {
+      "original_path": "ingest_enhanced.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ingest_enhanced.py",
+      "relative_path": "ingest_enhanced.py",
+      "size": 2870,
+      "hash": "4db2b672f79e87ffe3aa830e660a91225c84fd409dbae657ccf80609affe62d1",
+      "modified_time": 1764578866.8138177
+    },
+    {
+      "original_path": "start-docker.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/start-docker.sh",
+      "relative_path": "start-docker.sh",
+      "size": 4395,
+      "hash": "8e39e932a1c249335205fcbd6ad08dd467835168d71a8bd3bd2cda5f01a754e7",
+      "modified_time": 1764595039.1333601
+    },
+    {
+      "original_path": "test_app_startup.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/test_app_startup.py",
+      "relative_path": "test_app_startup.py",
+      "size": 3644,
+      "hash": "f756c57b36b10cb6f2c0f1d4b8804615cfa234a05540b50bcc9425de787600ed",
+      "modified_time": 1764590011.3109884
+    },
+    {
+      "original_path": "INTEGRATION_COMPLETE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/INTEGRATION_COMPLETE.md",
+      "relative_path": "INTEGRATION_COMPLETE.md",
+      "size": 7065,
+      "hash": "88980d367d6497bf9bba442bb23e2c086adcdc491ad9bd17c21ecb50d9107fa1",
+      "modified_time": 1764590067.431941
+    },
+    {
+      "original_path": "pytest.ini",
+      "backup_path": "backup/reorganization_backup_20251201_150255/pytest.ini",
+      "relative_path": "pytest.ini",
+      "size": 1671,
+      "hash": "db85469f8bf1c17519f16efc26dd2263306704ec9fe6163097f829f8f0943f76",
+      "modified_time": 1764586357.653249
+    },
+    {
+      "original_path": "requirements.txt",
+      "backup_path": "backup/reorganization_backup_20251201_150255/requirements.txt",
+      "relative_path": "requirements.txt",
+      "size": 229,
+      "hash": "98a23cfba812f9ebe4b73bbe1b526561d094f4292ba8ec9b8626af107178cc93",
+      "modified_time": 1764578138.1722233
+    },
+    {
+      "original_path": "run_tests.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/run_tests.py",
+      "relative_path": "run_tests.py",
+      "size": 10741,
+      "hash": "22374424ebf225fd007da9a7fba7ba3248cff48b2e7874aac64861d5bc24514c",
+      "modified_time": 1764586389.8270605
+    },
+    {
+      "original_path": "build-docker.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/build-docker.sh",
+      "relative_path": "build-docker.sh",
+      "size": 3992,
+      "hash": "6391001939a7d644b406bb4b166799166ec12356958ea912dbd716fc1f9fc1e0",
+      "modified_time": 1764595460.6514063
+    },
+    {
+      "original_path": "Dockerfile.simple",
+      "backup_path": "backup/reorganization_backup_20251201_150255/Dockerfile.simple",
+      "relative_path": "Dockerfile.simple",
+      "size": 1323,
+      "hash": "9761954d418262c52ce13a56274c218baa5a9cc6ce8cdf3e32508603538d7eb7",
+      "modified_time": 1764595438.8860524
+    },
+    {
+      "original_path": "demo_response_synthesis.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/demo_response_synthesis.py",
+      "relative_path": "demo_response_synthesis.py",
+      "size": 12284,
+      "hash": "0b7547effe28c83c3c60f9e2575163dd5d47b226e96ef46d75e30930bc172252",
+      "modified_time": 1764582203.5240953
+    },
+    {
+      "original_path": "analytics.db",
+      "backup_path": "backup/reorganization_backup_20251201_150255/analytics.db",
+      "relative_path": "analytics.db",
+      "size": 53248,
+      "hash": "d0f0623c39fd9f7f90969556c4eac77099e830ec002df6984a9a914fe8452788",
+      "modified_time": 1764589847.124084
+    },
+    {
+      "original_path": "system_status.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/system_status.py",
+      "relative_path": "system_status.py",
+      "size": 8428,
+      "hash": "8199c034db89696c7c7ae1de9b2b6a9a4132d6bed1b4b460e5b52ad9451a6082",
+      "modified_time": 1764589753.603843
+    },
+    {
+      "original_path": "setup-colima.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/setup-colima.sh",
+      "relative_path": "setup-colima.sh",
+      "size": 2607,
+      "hash": "b7c4e915cbcb88c57b244003c111b7c0f7d2549cc70b892a29bc94a37a75d742",
+      "modified_time": 1764596402.5551379
+    },
+    {
+      "original_path": "UI_ENHANCEMENTS_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/UI_ENHANCEMENTS_GUIDE.md",
+      "relative_path": "UI_ENHANCEMENTS_GUIDE.md",
+      "size": 9142,
+      "hash": "9b961b8dca01b5d856f1d958206b7fc9ffa1c6874a4327771b6e621b458b84d2",
+      "modified_time": 1764586019.855014
+    },
+    {
+      "original_path": "docker-troubleshoot.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/docker-troubleshoot.sh",
+      "relative_path": "docker-troubleshoot.sh",
+      "size": 7686,
+      "hash": "5b950c8f069b2cba34cafcc572735e08cb797a13029c3b4e95fc4239dfdc8c22",
+      "modified_time": 1764595489.6438484
+    },
+    {
+      "original_path": ".dockerignore",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.dockerignore",
+      "relative_path": ".dockerignore",
+      "size": 676,
+      "hash": "562e6b0913d8eac4ed2dc4fdc594fdb1c8217dae6083a1b737983e401895ec41",
+      "modified_time": 1764594966.4809158
+    },
+    {
+      "original_path": "STREAMLIT_COMPATIBILITY.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/STREAMLIT_COMPATIBILITY.md",
+      "relative_path": "STREAMLIT_COMPATIBILITY.md",
+      "size": 4172,
+      "hash": "bfa939941a1c36fc9e16b0f126db4194de050d6c7f9d8ba0160568959b1ceb6a",
+      "modified_time": 1764590708.2216065
+    },
+    {
+      "original_path": "demo_query_enhancer.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/demo_query_enhancer.py",
+      "relative_path": "demo_query_enhancer.py",
+      "size": 8293,
+      "hash": "d6ac2041322e54f54a912eb5db186894c6b162407bd6432836e0c2faef373e98",
+      "modified_time": 1764581313.0831854
+    },
+    {
+      "original_path": "app.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/app.py",
+      "relative_path": "app.py",
+      "size": 22522,
+      "hash": "e167bc95cd7073472fa574fb89f1f5dc46911897dd4e3eb9a18a45efde2641ce",
+      "modified_time": 1764591513.38255
+    },
+    {
+      "original_path": "demo_analytics_monitoring.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/demo_analytics_monitoring.py",
+      "relative_path": "demo_analytics_monitoring.py",
+      "size": 11333,
+      "hash": "d9c518e419477d45441b8f12a1c1c6dfda0fb36f58e501593d5112e878ae45d8",
+      "modified_time": 1764583943.4214337
+    },
+    {
+      "original_path": "health-check.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/health-check.sh",
+      "relative_path": "health-check.sh",
+      "size": 4962,
+      "hash": "e2c971050b6c5a28d3def168e61ab72cf2d946993e0a7d02e19739747d2872c5",
+      "modified_time": 1764595076.157365
+    },
+    {
+      "original_path": "FRENCH_LANGUAGE_SUPPORT.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/FRENCH_LANGUAGE_SUPPORT.md",
+      "relative_path": "FRENCH_LANGUAGE_SUPPORT.md",
+      "size": 7537,
+      "hash": "ab03320c78a12f3aff16f43a9341ad7b5765f846cddeee323c8f49803d69c820",
+      "modified_time": 1764581401.8000946
+    },
+    {
+      "original_path": "FINAL_VERIFICATION.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/FINAL_VERIFICATION.md",
+      "relative_path": "FINAL_VERIFICATION.md",
+      "size": 4741,
+      "hash": "07d22c67cf98dd8648cc84d5cbc74e012af97574be0c324654a64b5915fafb68",
+      "modified_time": 1764590510.104443
+    },
+    {
+      "original_path": ".env.example",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.env.example",
+      "relative_path": ".env.example",
+      "size": 1740,
+      "hash": "1038a58c856e620dde7c0ec4326c97b5d62dd495930cce53d75611eb59c4d129",
+      "modified_time": 1764595056.8178635
+    },
+    {
+      "original_path": "DOCKER_DEPLOYMENT.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/DOCKER_DEPLOYMENT.md",
+      "relative_path": "DOCKER_DEPLOYMENT.md",
+      "size": 6220,
+      "hash": "6e3571225ecfd2207034865265439034cdd8cdab81873f0ecf75cd8a4e918112",
+      "modified_time": 1764596433.9630454
+    },
+    {
+      "original_path": "integration_setup.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/integration_setup.py",
+      "relative_path": "integration_setup.py",
+      "size": 21114,
+      "hash": "7a9196fdd5344f4e9749cd7d6b9b8e99147ab3060c75ee2e813b2700826a652f",
+      "modified_time": 1764589130.898009
+    },
+    {
+      "original_path": "DOCKER_DESKTOP_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/DOCKER_DESKTOP_GUIDE.md",
+      "relative_path": "DOCKER_DESKTOP_GUIDE.md",
+      "size": 4876,
+      "hash": "488b78a1ae12cf0c52dc5bb508878b3bbe8adf5cbc3a7a1e495f62e8fdce6c8b",
+      "modified_time": 1764595772.2773035
+    },
+    {
+      "original_path": "fix-docker-desktop.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/fix-docker-desktop.sh",
+      "relative_path": "fix-docker-desktop.sh",
+      "size": 2660,
+      "hash": "c06e8dea91df3192ff203894bf067ffa469ecc4804feddf383c2624d303b14a6",
+      "modified_time": 1764596383.2503731
+    },
+    {
+      "original_path": "quick-docker-check.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/quick-docker-check.sh",
+      "relative_path": "quick-docker-check.sh",
+      "size": 3437,
+      "hash": "ea257a074ea438fe4593a89aeab7f38739ee25c912dd334bd2f828057bf0bc00",
+      "modified_time": 1764595981.317336
+    },
+    {
+      "original_path": "ISSUE_RESOLUTION.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ISSUE_RESOLUTION.md",
+      "relative_path": "ISSUE_RESOLUTION.md",
+      "size": 3258,
+      "hash": "512a87a2c38e44abc5b5a8378b464f72af57802c68c3f2e8cb28a31aeeab3aa3",
+      "modified_time": 1764590689.3509347
+    },
+    {
+      "original_path": "ui/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ui/__init__.py",
+      "relative_path": "ui/__init__.py",
+      "size": 22,
+      "hash": "13577f12489feac8f1dde830fa024f824a76a6578e80ccb40bcaea13b9c6c92b",
+      "modified_time": 1764585672.6758451
+    },
+    {
+      "original_path": "ui/components.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ui/components.py",
+      "relative_path": "ui/components.py",
+      "size": 10407,
+      "hash": "b5d1fdb714a20e298dea18ec89b7feefcddde09ff0d13919874f0b99a4ba0758",
+      "modified_time": 1764590641.3424184
+    },
+    {
+      "original_path": "ui/filters.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/ui/filters.py",
+      "relative_path": "ui/filters.py",
+      "size": 11296,
+      "hash": "aa0a82271270bbca2928dda659865b72d8180bda50bd2f563715b8b26be5c447",
+      "modified_time": 1764590654.9764445
+    },
+    {
+      "original_path": "retrievers/interfaces.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/retrievers/interfaces.py",
+      "relative_path": "retrievers/interfaces.py",
+      "size": 2801,
+      "hash": "dd078db798b43b090e26aeeb8e4b4ab5dba22f500b7e7175cdbec6338d4e5fe6",
+      "modified_time": 1764577958.6578388
+    },
+    {
+      "original_path": "retrievers/reranker.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/retrievers/reranker.py",
+      "relative_path": "retrievers/reranker.py",
+      "size": 15726,
+      "hash": "04cc04fec8b318c88a056623c9449ebb56769c0dcb6962518b7d17a4130ce520",
+      "modified_time": 1764579169.3345864
+    },
+    {
+      "original_path": "retrievers/bm25_retriever.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/retrievers/bm25_retriever.py",
+      "relative_path": "retrievers/bm25_retriever.py",
+      "size": 12649,
+      "hash": "758cf7a8427e2df9bd8eaf850c1fa73946316903752b7caaa2f78d39336b0027",
+      "modified_time": 1764579042.235572
+    },
+    {
+      "original_path": "retrievers/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/retrievers/__init__.py",
+      "relative_path": "retrievers/__init__.py",
+      "size": 48,
+      "hash": "e2d9c80122353d24f9c8e81be7f675e319ffda27d266bcc9607bda26a07facb8",
+      "modified_time": 1764577912.8415546
+    },
+    {
+      "original_path": "retrievers/hybrid_retriever.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/retrievers/hybrid_retriever.py",
+      "relative_path": "retrievers/hybrid_retriever.py",
+      "size": 20974,
+      "hash": "95ce78501fe6d6de227d6421f6f4ec7c233f335da4b99a7e561efa8b6f818096",
+      "modified_time": 1764579320.2593324
+    },
+    {
+      "original_path": "chroma/chroma.sqlite3",
+      "backup_path": "backup/reorganization_backup_20251201_150255/chroma/chroma.sqlite3",
+      "relative_path": "chroma/chroma.sqlite3",
+      "size": 167936,
+      "hash": "7a812ab2d9446d219ddce794a072b2acbe1d853ce2a47f84561da95cfbb9e69d",
+      "modified_time": 1764591158.689847
+    },
+    {
+      "original_path": "core/system.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/core/system.py",
+      "relative_path": "core/system.py",
+      "size": 3993,
+      "hash": "9d062a443aae3a3e983b90b959d1477cd86404e5d1374ed548529822c115fd80",
+      "modified_time": 1764578066.3106902
+    },
+    {
+      "original_path": "core/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/core/__init__.py",
+      "relative_path": "core/__init__.py",
+      "size": 53,
+      "hash": "9e97d08c23be506878c3fde5632bc2281a076fb49663ad6046cdf082fdd8ea3c",
+      "modified_time": 1764578053.4906178
+    },
+    {
+      "original_path": "config/logging_config.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/logging_config.py",
+      "relative_path": "config/logging_config.py",
+      "size": 4505,
+      "hash": "7532fadcf1ef370c8c1fdb253c15496988fd92a00d30f868ab86d438ccb35f45",
+      "modified_time": 1764578021.1271088
+    },
+    {
+      "original_path": "config/enhanced_features.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/enhanced_features.json",
+      "relative_path": "config/enhanced_features.json",
+      "size": 1030,
+      "hash": "ef86608e447548246a2ed97c1b74f8de8172c81bc9fc652c255d9709cf680195",
+      "modified_time": 1764589691.365964
+    },
+    {
+      "original_path": "config/enhanced_config.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/enhanced_config.py",
+      "relative_path": "config/enhanced_config.py",
+      "size": 12034,
+      "hash": "3490f9fb4d2fcf71bfb411d9d6075657ce60791c2511d99ffb42c4ca1f263151",
+      "modified_time": 1764588961.3367193
+    },
+    {
+      "original_path": "config/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/__init__.py",
+      "relative_path": "config/__init__.py",
+      "size": 52,
+      "hash": "31ecce8c25098dc5a8bd2253fd62d9d6c7c1d7138efc35d1d7d34649faeb99da",
+      "modified_time": 1764577976.1980093
+    },
+    {
+      "original_path": "config/migration_status.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/migration_status.json",
+      "relative_path": "config/migration_status.json",
+      "size": 151,
+      "hash": "2d3b959beb3d960501f8eb67a2bbe2d98b3170cdaa572a1eed29ea19a4d51fc1",
+      "modified_time": 1764589692.4721508
+    },
+    {
+      "original_path": "config/settings.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/settings.py",
+      "relative_path": "config/settings.py",
+      "size": 7995,
+      "hash": "277aa78d3ec55c82aa090d6d2f280598927b75179748fa59eb278e1d46e430da",
+      "modified_time": 1764581779.5840857
+    },
+    {
+      "original_path": "config/integration_status.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/integration_status.json",
+      "relative_path": "config/integration_status.json",
+      "size": 2061,
+      "hash": "e9371656f54e1225f36703098cb704515d14ba3c591384b7d0d978a2da3f519a",
+      "modified_time": 1764596433.9631827
+    },
+    {
+      "original_path": "config/environments/staging.env",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/environments/staging.env",
+      "relative_path": "config/environments/staging.env",
+      "size": 125,
+      "hash": "ac57fd31b68a22fc50f934b96c6e839951df839165f4677ce4cde2eedce02ae9",
+      "modified_time": 1764589691.3661273
+    },
+    {
+      "original_path": "config/environments/development.env",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/environments/development.env",
+      "relative_path": "config/environments/development.env",
+      "size": 128,
+      "hash": "3bce6a15e5dfac8e11f88c997faa4973022810ee1a24af3a15c618ae63e0b5a4",
+      "modified_time": 1764589691.366051
+    },
+    {
+      "original_path": "config/environments/production.env",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/environments/production.env",
+      "relative_path": "config/environments/production.env",
+      "size": 151,
+      "hash": "22c4a07611594d11a5e2f7686c58ab4a4c695193b9d2c4dcb023188ee265323d",
+      "modified_time": 1764589691.366206
+    },
+    {
+      "original_path": "config/profiles/full_features.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/profiles/full_features.json",
+      "relative_path": "config/profiles/full_features.json",
+      "size": 385,
+      "hash": "e946d6867e8134346d669a7c537e8dc62e09f998401701efe28878a92d23103b",
+      "modified_time": 1764589691.3656056
+    },
+    {
+      "original_path": "config/profiles/performance_optimized.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/profiles/performance_optimized.json",
+      "relative_path": "config/profiles/performance_optimized.json",
+      "size": 390,
+      "hash": "d99d63a16842c41386192b2b04eeb4a8c3ea109bd44b9820650df0a6bcb99b79",
+      "modified_time": 1764589691.3658128
+    },
+    {
+      "original_path": "config/profiles/basic_features.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/config/profiles/basic_features.json",
+      "relative_path": "config/profiles/basic_features.json",
+      "size": 392,
+      "hash": "f7f670e3172a4186e464584bce54fdd8d977493920e5d8fe74d313447f53b2b7",
+      "modified_time": 1764589691.3657181
+    },
+    {
+      "original_path": "managers/analytics_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/analytics_manager.py",
+      "relative_path": "managers/analytics_manager.py",
+      "size": 24705,
+      "hash": "1fc86eb235b54ceb2c00733401eb48ed1868c113a4c8537d8b7392b7e3d0e846",
+      "modified_time": 1764583555.0198658
+    },
+    {
+      "original_path": "managers/interfaces.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/interfaces.py",
+      "relative_path": "managers/interfaces.py",
+      "size": 4288,
+      "hash": "4237e70db4a92aa54214ed5c18d56596bcb8b5bdbd19d10e1d38a2fa69324ef5",
+      "modified_time": 1764577972.6118476
+    },
+    {
+      "original_path": "managers/config_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/config_manager.py",
+      "relative_path": "managers/config_manager.py",
+      "size": 5177,
+      "hash": "724ad900da0325188a27845cf3a9fa5b959160de1459eaba211570160a03a091",
+      "modified_time": 1764578041.279886
+    },
+    {
+      "original_path": "managers/synthesis_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/synthesis_manager.py",
+      "relative_path": "managers/synthesis_manager.py",
+      "size": 21630,
+      "hash": "cc5446573af5e08c5f8661479946da86aa77126af7e4512387a65cc5f9bceb9e",
+      "modified_time": 1764582010.9286103
+    },
+    {
+      "original_path": "managers/followup_detector.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/followup_detector.py",
+      "relative_path": "managers/followup_detector.py",
+      "size": 20599,
+      "hash": "9d375fd7761393530570c3eaa42f5f2e173edd09a3d6c776ad49d069a87605f5",
+      "modified_time": 1764580357.283362
+    },
+    {
+      "original_path": "managers/performance_monitor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/performance_monitor.py",
+      "relative_path": "managers/performance_monitor.py",
+      "size": 20673,
+      "hash": "11758c7ca0a71b032d961fd4acf4ed4d7c5334c4a91c1457c807fb976c045ef8",
+      "modified_time": 1764583647.5978928
+    },
+    {
+      "original_path": "managers/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/__init__.py",
+      "relative_path": "managers/__init__.py",
+      "size": 181,
+      "hash": "18ef547cdaa076faa4a98991f32c7da9e93a74bc882a761df6de1ae5542383d1",
+      "modified_time": 1764581116.9511123
+    },
+    {
+      "original_path": "managers/query_enhancer.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/query_enhancer.py",
+      "relative_path": "managers/query_enhancer.py",
+      "size": 43701,
+      "hash": "2f72da9ea9e267ab557ca4f139a4faad2ca63cfd92ef135598558e98ddbc01c6",
+      "modified_time": 1764581290.77217
+    },
+    {
+      "original_path": "managers/conversation_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/conversation_manager.py",
+      "relative_path": "managers/conversation_manager.py",
+      "size": 28896,
+      "hash": "c3d2d52e66269cfb7cf67b08b7279453fb788d5a3c7e2eb7650653da66df5467",
+      "modified_time": 1764580212.6834126
+    },
+    {
+      "original_path": "managers/response_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/managers/response_manager.py",
+      "relative_path": "managers/response_manager.py",
+      "size": 14798,
+      "hash": "588a6c9d0489b7beb38af50fc619f4b4fb2c096876c0f248e6dfe47a67cde0ec",
+      "modified_time": 1764582123.5119193
+    },
+    {
+      "original_path": "tests/test_performance_monitor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_performance_monitor.py",
+      "relative_path": "tests/test_performance_monitor.py",
+      "size": 16315,
+      "hash": "e2b5839342639852e2e9ec018d173c894896a01350751620b3b5a6cadca009e0",
+      "modified_time": 1764583717.2804635
+    },
+    {
+      "original_path": "tests/test_semantic_chunker.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_semantic_chunker.py",
+      "relative_path": "tests/test_semantic_chunker.py",
+      "size": 11285,
+      "hash": "24ff8595916f4d416df8fcec35b28575204c0a9eaf9d8a81c4b5e230e240cd47",
+      "modified_time": 1764578489.5710225
+    },
+    {
+      "original_path": "tests/test_response_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_response_manager.py",
+      "relative_path": "tests/test_response_manager.py",
+      "size": 14794,
+      "hash": "71bd01123fcf2e49dc6f7f11991fd9353cc31e7acc0328adf53313881986d231",
+      "modified_time": 1764582153.9723163
+    },
+    {
+      "original_path": "tests/test_context_management.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_context_management.py",
+      "relative_path": "tests/test_context_management.py",
+      "size": 15148,
+      "hash": "d231359a185d6adda656eb01d55a7465eefc642604ef021e799544b74358e81f",
+      "modified_time": 1764580104.3532877
+    },
+    {
+      "original_path": "tests/test_ui_integration.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_ui_integration.py",
+      "relative_path": "tests/test_ui_integration.py",
+      "size": 13203,
+      "hash": "b89b27a7159f1306bf57356451916bc2fe26ba8dc2e98c41b3f93b2607432500",
+      "modified_time": 1764585928.0927606
+    },
+    {
+      "original_path": "tests/test_ingestion_pipeline.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_ingestion_pipeline.py",
+      "relative_path": "tests/test_ingestion_pipeline.py",
+      "size": 13170,
+      "hash": "87897fa96ca30b1cd6bcb8a89a11675fb095378f8f33540896f41502e0f26ab5",
+      "modified_time": 1764578828.549092
+    },
+    {
+      "original_path": "tests/test_metadata_extractor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_metadata_extractor.py",
+      "relative_path": "tests/test_metadata_extractor.py",
+      "size": 13186,
+      "hash": "2513be47a059755221f64c8f2af52c27834f413f1ee39b5f0996b27323b4fd32",
+      "modified_time": 1764578626.3220272
+    },
+    {
+      "original_path": "tests/test_load_testing.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_load_testing.py",
+      "relative_path": "tests/test_load_testing.py",
+      "size": 19260,
+      "hash": "ccb3c863fab97c2f3f507f95289510b977e914f8cea5c11007bd9c84210191b0",
+      "modified_time": 1764586284.7621047
+    },
+    {
+      "original_path": "tests/test_performance_benchmarks.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_performance_benchmarks.py",
+      "relative_path": "tests/test_performance_benchmarks.py",
+      "size": 12696,
+      "hash": "cb6e9b00a130392fc95744493796b37ab6fea4cb8b9c3b0113b3d82f506b454c",
+      "modified_time": 1764586224.1698818
+    },
+    {
+      "original_path": "tests/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/__init__.py",
+      "relative_path": "tests/__init__.py",
+      "size": 15,
+      "hash": "b0d19b50ebdac50eb655e5aea1d24aaaad2ccef83ddad284396ba1fed43716cf",
+      "modified_time": 1764578293.6677403
+    },
+    {
+      "original_path": "tests/test_hybrid_retriever.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_hybrid_retriever.py",
+      "relative_path": "tests/test_hybrid_retriever.py",
+      "size": 18934,
+      "hash": "d9c730ff4a8a6a2eea39beb6c73f2a992e838735f0e0f41e2d5ee5e0edcb786d",
+      "modified_time": 1764579385.7114635
+    },
+    {
+      "original_path": "tests/test_conversation_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_conversation_manager.py",
+      "relative_path": "tests/test_conversation_manager.py",
+      "size": 16614,
+      "hash": "e4940a05f0cbcdf9e48c7bcc48655beeb8621a1815c2b156820206a2b27cccf4",
+      "modified_time": 1764580411.59389
+    },
+    {
+      "original_path": "tests/test_query_enhancer.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_query_enhancer.py",
+      "relative_path": "tests/test_query_enhancer.py",
+      "size": 29979,
+      "hash": "e7b088d98b61cbbaf927265b1a10f2f6b5309db7c205f2a52f35b61d5154ec86",
+      "modified_time": 1764581361.5811114
+    },
+    {
+      "original_path": "tests/test_reranker.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_reranker.py",
+      "relative_path": "tests/test_reranker.py",
+      "size": 16749,
+      "hash": "4e7c069b4faeb86d54840b0db887704c8e375998dd4bc5211ccc12c73633e17e",
+      "modified_time": 1764579224.3915727
+    },
+    {
+      "original_path": "tests/test_analytics_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_analytics_manager.py",
+      "relative_path": "tests/test_analytics_manager.py",
+      "size": 16771,
+      "hash": "a9516817ec58e10396b54f88ad1dba9f7c5a62db8f5c10fa45c4b5eee4a797bb",
+      "modified_time": 1764583563.483077
+    },
+    {
+      "original_path": "tests/test_health_monitor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_health_monitor.py",
+      "relative_path": "tests/test_health_monitor.py",
+      "size": 26545,
+      "hash": "c0bc8f9cead875dad00ff2c5660ba0258301a22f796ad872cc45edbffe1b1534",
+      "modified_time": 1764585388.9105728
+    },
+    {
+      "original_path": "tests/test_ui_components.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_ui_components.py",
+      "relative_path": "tests/test_ui_components.py",
+      "size": 11723,
+      "hash": "445934d9e8d951d9385974b383a6eb5ffd1584a2e20e253617210642f1247759",
+      "modified_time": 1764585815.7011745
+    },
+    {
+      "original_path": "tests/test_ci_automation.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_ci_automation.py",
+      "relative_path": "tests/test_ci_automation.py",
+      "size": 19684,
+      "hash": "28ebf2ca9b7cd1857906640bdd0e4bdc99e7e65491a1cd5a0154e00e00028642",
+      "modified_time": 1764586346.675687
+    },
+    {
+      "original_path": "tests/test_synthesis_manager.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_synthesis_manager.py",
+      "relative_path": "tests/test_synthesis_manager.py",
+      "size": 16695,
+      "hash": "38b93ac4ea1b6c780081364530de042f170f328fc6bc3f1a8f50659a16cd0cd9",
+      "modified_time": 1764582076.8861465
+    },
+    {
+      "original_path": "tests/test_followup_detector.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_followup_detector.py",
+      "relative_path": "tests/test_followup_detector.py",
+      "size": 15129,
+      "hash": "240bf9472bb4b9f4f5b38ed05204e0e0af881c3261820e9e8c58ccb20fb7e557",
+      "modified_time": 1764580333.2174346
+    },
+    {
+      "original_path": "tests/test_monitoring_integration.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_monitoring_integration.py",
+      "relative_path": "tests/test_monitoring_integration.py",
+      "size": 15564,
+      "hash": "f1087e1596f9e15f84f6dc6e7610f26db02f2edb2a3024c81fd675975dc1ae03",
+      "modified_time": 1764583838.959967
+    },
+    {
+      "original_path": "tests/test_bm25_retriever.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_bm25_retriever.py",
+      "relative_path": "tests/test_bm25_retriever.py",
+      "size": 12400,
+      "hash": "571637124de7ba071ce475e9743c675f22bfaba8c5757892bc71488d732b3fb4",
+      "modified_time": 1764579080.9177544
+    },
+    {
+      "original_path": "tests/test_ui_filters.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_ui_filters.py",
+      "relative_path": "tests/test_ui_filters.py",
+      "size": 15798,
+      "hash": "46dd701797abcf7c0dbf319613e9f53683e3ac618172c2dafbec39eb1e8d7db5",
+      "modified_time": 1764585866.8846083
+    },
+    {
+      "original_path": "tests/test_end_to_end_workflows.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_end_to_end_workflows.py",
+      "relative_path": "tests/test_end_to_end_workflows.py",
+      "size": 12372,
+      "hash": "4f55ee3cf6dbfdadefc6046bdea705f5acebf10abd7b6e3fdc56a6f1048269bd",
+      "modified_time": 1764586182.9284422
+    },
+    {
+      "original_path": "tests/test_error_handler.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_error_handler.py",
+      "relative_path": "tests/test_error_handler.py",
+      "size": 20150,
+      "hash": "f3a003c3100c81207efb1f1047c112c8b00da60674749b45023c3b4bb4ca78f7",
+      "modified_time": 1764584199.37229
+    },
+    {
+      "original_path": "tests/test_system_recovery.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/tests/test_system_recovery.py",
+      "relative_path": "tests/test_system_recovery.py",
+      "size": 15521,
+      "hash": "a80d901b6dc99a601f0ea5dd4442ec5fab8b0dd892ead0671c8a56065b8acac6",
+      "modified_time": 1764585481.267169
+    },
+    {
+      "original_path": "migration_scripts/migrate_to_enhanced.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/migration_scripts/migrate_to_enhanced.py",
+      "relative_path": "migration_scripts/migrate_to_enhanced.py",
+      "size": 15394,
+      "hash": "66f040d5a736a8624971f61913e402130370b72cc2b9f4a28fab2317eb37cc8d",
+      "modified_time": 1764588927.8689656
+    },
+    {
+      "original_path": "utils/database_optimizer.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/database_optimizer.py",
+      "relative_path": "utils/database_optimizer.py",
+      "size": 16329,
+      "hash": "9083aa99e53e5f2bc3423b1fbb89b6373e34defe9c52cb4c6361dc44f717539a",
+      "modified_time": 1764586470.4999983
+    },
+    {
+      "original_path": "utils/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/__init__.py",
+      "relative_path": "utils/__init__.py",
+      "size": 57,
+      "hash": "017127beb006cd338ed1775ca4c871490f04fe769e2e1a81aa271eb6f124cb5e",
+      "modified_time": 1764578070.0583565
+    },
+    {
+      "original_path": "utils/health_monitor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/health_monitor.py",
+      "relative_path": "utils/health_monitor.py",
+      "size": 30770,
+      "hash": "e735f3256346b039925e7c729a101045cd725074db1c1b2c1d1e3116c432ae6d",
+      "modified_time": 1764585405.3859684
+    },
+    {
+      "original_path": "utils/caching.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/caching.py",
+      "relative_path": "utils/caching.py",
+      "size": 15482,
+      "hash": "6eea12f7b4655b255a408161de65508e94bcbefeb53b207a702003ce8e1f4e92",
+      "modified_time": 1764586518.6707883
+    },
+    {
+      "original_path": "utils/backward_compatibility.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/backward_compatibility.py",
+      "relative_path": "utils/backward_compatibility.py",
+      "size": 12126,
+      "hash": "655d9ef06ec7f8b9c11485d89fbeea824386dc29aa01e5d646859d5d9be59747",
+      "modified_time": 1764588994.469581
+    },
+    {
+      "original_path": "utils/error_handler.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/error_handler.py",
+      "relative_path": "utils/error_handler.py",
+      "size": 21200,
+      "hash": "113eba76473a94b000635ab46929d02e699e0b5bf183e970d747bd7c35c34cb7",
+      "modified_time": 1764591061.0228057
+    },
+    {
+      "original_path": "utils/helpers.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/helpers.py",
+      "relative_path": "utils/helpers.py",
+      "size": 5824,
+      "hash": "383daece687206033646029c05b6a7d469709ed2bf2731ae283022a3a92a5c35",
+      "modified_time": 1764578089.8906133
+    },
+    {
+      "original_path": "utils/streamlit_compat.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/utils/streamlit_compat.py",
+      "relative_path": "utils/streamlit_compat.py",
+      "size": 1918,
+      "hash": "aaac3a3850e39d0a801db11d41344f38f41d3d584ff64b67e27b3b3e327d1cb3",
+      "modified_time": 1764590630.0623758
+    },
+    {
+      "original_path": "models/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/models/__init__.py",
+      "relative_path": "models/__init__.py",
+      "size": 51,
+      "hash": "0a490969a99cd900a3163c186fcb66b0e5658316bcbcf9d89a7f3e04fbfbadee",
+      "modified_time": 1764577918.22072
+    },
+    {
+      "original_path": "models/base.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/models/base.py",
+      "relative_path": "models/base.py",
+      "size": 4647,
+      "hash": "6b1f8b362800aebd7998d12c3da3bcbf993c25bd4adc248491a290cc0b1ec102",
+      "modified_time": 1764583390.8198898
+    },
+    {
+      "original_path": "docs/USER_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/docs/USER_GUIDE.md",
+      "relative_path": "docs/USER_GUIDE.md",
+      "size": 14361,
+      "hash": "14e773024a1cf96d65855a92fa9bbbcf13daf9dec8e38ff9a60789478d19cabd",
+      "modified_time": 1764586762.3199372
+    },
+    {
+      "original_path": "docs/DEPLOYMENT_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/docs/DEPLOYMENT_GUIDE.md",
+      "relative_path": "docs/DEPLOYMENT_GUIDE.md",
+      "size": 12519,
+      "hash": "cfd292a056c9ca5e87a7cd7d1f89d892c337ad1bf637b87cc6b2c6fa54e2cb41",
+      "modified_time": 1764586698.7088928
+    },
+    {
+      "original_path": "docs/ENHANCED_DEPLOYMENT_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/docs/ENHANCED_DEPLOYMENT_GUIDE.md",
+      "relative_path": "docs/ENHANCED_DEPLOYMENT_GUIDE.md",
+      "size": 9191,
+      "hash": "f95214f3755bcfd526e52f409674674bf7258a9b9469ed2817a1baaf703b7a4d",
+      "modified_time": 1764589028.4231849
+    },
+    {
+      "original_path": "docs/ADMIN_GUIDE.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/docs/ADMIN_GUIDE.md",
+      "relative_path": "docs/ADMIN_GUIDE.md",
+      "size": 17048,
+      "hash": "0fea5c899348a2add791004d8592bf0517cfc13167404dc7cfd638124b4023c8",
+      "modified_time": 1764586827.7386446
+    },
+    {
+      "original_path": "processors/interfaces.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/interfaces.py",
+      "relative_path": "processors/interfaces.py",
+      "size": 2510,
+      "hash": "8505b1ac9fa402f7c8d5d431d57b6796d31fc213495bc9816840231de000a8cc",
+      "modified_time": 1764577945.6940722
+    },
+    {
+      "original_path": "processors/document_processor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/document_processor.py",
+      "relative_path": "processors/document_processor.py",
+      "size": 12618,
+      "hash": "f27fcf7eeb9a99566701e874a1ce377cc7a373079b6e6513b32940e2623ff890",
+      "modified_time": 1764578726.781193
+    },
+    {
+      "original_path": "processors/__init__.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/__init__.py",
+      "relative_path": "processors/__init__.py",
+      "size": 58,
+      "hash": "dc6d255e0bf62224b81e81d0887153f46a8e56089627608198e391b0519945f1",
+      "modified_time": 1764577909.8701184
+    },
+    {
+      "original_path": "processors/ingestion_pipeline.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/ingestion_pipeline.py",
+      "relative_path": "processors/ingestion_pipeline.py",
+      "size": 19002,
+      "hash": "04c985396031856b05257345cf44ce9ea6108e260548b774f923309febec0c97",
+      "modified_time": 1764578785.2223938
+    },
+    {
+      "original_path": "processors/metadata_extractor.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/metadata_extractor.py",
+      "relative_path": "processors/metadata_extractor.py",
+      "size": 16823,
+      "hash": "bd04916a413129f4212f6b17a76020c5301b714bab1359d0bc4ab2ddfb1d22d2",
+      "modified_time": 1764578678.889999
+    },
+    {
+      "original_path": "processors/semantic_chunker.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/processors/semantic_chunker.py",
+      "relative_path": "processors/semantic_chunker.py",
+      "size": 22188,
+      "hash": "115cbe78da618e91fef186a696bec9050e64662073bcb167c1f542b3bc8b5277",
+      "modified_time": 1764578512.7082667
+    },
+    {
+      "original_path": "logs/rag_system.log",
+      "backup_path": "backup/reorganization_backup_20251201_150255/logs/rag_system.log",
+      "relative_path": "logs/rag_system.log",
+      "size": 124852,
+      "hash": "01fa09d49620d74f55701b0f183d02e9d098ff07fb62a68ed0afab6c28a77037",
+      "modified_time": 1764591574.2384677
+    },
+    {
+      "original_path": "deployment/docker/Dockerfile",
+      "backup_path": "backup/reorganization_backup_20251201_150255/deployment/docker/Dockerfile",
+      "relative_path": "deployment/docker/Dockerfile",
+      "size": 1755,
+      "hash": "9e3cfec649d07859829c37d3c11071155a6effa4629474eda69d7f05d9ac7c15",
+      "modified_time": 1764595431.1939106
+    },
+    {
+      "original_path": "deployment/docker/docker-compose.yml",
+      "backup_path": "backup/reorganization_backup_20251201_150255/deployment/docker/docker-compose.yml",
+      "relative_path": "deployment/docker/docker-compose.yml",
+      "size": 2804,
+      "hash": "e7134fe8996828d138760697eb6adc3caaffa000ddeac60351506765a14eee69",
+      "modified_time": 1764595544.765584
+    },
+    {
+      "original_path": "deployment/docker/nginx.conf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/deployment/docker/nginx.conf",
+      "relative_path": "deployment/docker/nginx.conf",
+      "size": 3861,
+      "hash": "18dcc2876951388e6c55efd9100b459824fb47b7eb2ea1515a0cd757ac213585",
+      "modified_time": 1764586557.1878214
+    },
+    {
+      "original_path": "deployment/scripts/setup.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/deployment/scripts/setup.sh",
+      "relative_path": "deployment/scripts/setup.sh",
+      "size": 9046,
+      "hash": "30a6f8c834298b8e8f40627c55d61b0e88fabd52d077156601074df30a6b8adf",
+      "modified_time": 1764586591.5990045
+    },
+    {
+      "original_path": "deployment/scripts/deploy.sh",
+      "backup_path": "backup/reorganization_backup_20251201_150255/deployment/scripts/deploy.sh",
+      "relative_path": "deployment/scripts/deploy.sh",
+      "size": 8767,
+      "hash": "e02ed2045a455feef4ba4bb61669b4e839180f402f1c41019cec7c59d6957398",
+      "modified_time": 1764586635.7805698
+    },
+    {
+      "original_path": "scripts/reorganization_prep.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/scripts/reorganization_prep.py",
+      "relative_path": "scripts/reorganization_prep.py",
+      "size": 3826,
+      "hash": "18080c8242daa98870e148402825401eebf8945a95c77e655910a8cd295d30ba",
+      "modified_time": 1764597765.0058508
+    },
+    {
+      "original_path": "scripts/import_analyzer.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/scripts/import_analyzer.py",
+      "relative_path": "scripts/import_analyzer.py",
+      "size": 15825,
+      "hash": "ca3badf5096d0c40f2acc9042cbe4ff2b9e8d6a1223546f80cd8b4510deab4a1",
+      "modified_time": 1764597703.3520896
+    },
+    {
+      "original_path": "scripts/file_inventory.py",
+      "backup_path": "backup/reorganization_backup_20251201_150255/scripts/file_inventory.py",
+      "relative_path": "scripts/file_inventory.py",
+      "size": 11624,
+      "hash": "a0ed7c3165ab438a309afabc968d2ddcdfb0642daa296e5edb9764f04b89294d",
+      "modified_time": 1764597660.3131049
+    },
+    {
+      "original_path": ".github/workflows/ci.yml",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.github/workflows/ci.yml",
+      "relative_path": ".github/workflows/ci.yml",
+      "size": 5375,
+      "hash": "84d6c5257f66bc60591554878912d27f811eeafe699afc3a637cd74ecc5abd68",
+      "modified_time": 1764586410.618406
+    },
+    {
+      "original_path": ".kiro/specs/rag-system-improvements/requirements.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/rag-system-improvements/requirements.md",
+      "relative_path": ".kiro/specs/rag-system-improvements/requirements.md",
+      "size": 7203,
+      "hash": "8c82065dc4c357e8f453c73b74d21252e5eb7399d80b0ddc1f761c62aa96e765",
+      "modified_time": 1764577527.6235425
+    },
+    {
+      "original_path": ".kiro/specs/rag-system-improvements/tasks.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/rag-system-improvements/tasks.md",
+      "relative_path": ".kiro/specs/rag-system-improvements/tasks.md",
+      "size": 8524,
+      "hash": "e6fede64b3bbe24c80d5bbf8653ac4601ff58e219400a0ef8b5703bc8bce28b6",
+      "modified_time": 1764589874.6943107
+    },
+    {
+      "original_path": ".kiro/specs/rag-system-improvements/design.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/rag-system-improvements/design.md",
+      "relative_path": ".kiro/specs/rag-system-improvements/design.md",
+      "size": 12407,
+      "hash": "a84e03909224ae835fef3d5f38c0673b4a8a03c2cc406dbf9b5264c6684325d6",
+      "modified_time": 1764577655.7369676
+    },
+    {
+      "original_path": ".kiro/specs/file-reorganization/requirements.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/file-reorganization/requirements.md",
+      "relative_path": ".kiro/specs/file-reorganization/requirements.md",
+      "size": 2310,
+      "hash": "fc6d8e90955b1977fb8192beff0c1f9466f99df8bb33445899298ed5c58eb702",
+      "modified_time": 1764597506.056235
+    },
+    {
+      "original_path": ".kiro/specs/file-reorganization/tasks.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/file-reorganization/tasks.md",
+      "relative_path": ".kiro/specs/file-reorganization/tasks.md",
+      "size": 3230,
+      "hash": "815092237d5174d8650a4ef4c5a8e6f1c25accccbef9d5411edc89a7e5af31ad",
+      "modified_time": 1764597606.9058228
+    },
+    {
+      "original_path": ".kiro/specs/file-reorganization/design.md",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.kiro/specs/file-reorganization/design.md",
+      "relative_path": ".kiro/specs/file-reorganization/design.md",
+      "size": 4804,
+      "hash": "9b5fb04532295373845a821c30476c6aa5f8fde2ace3a37b255fe8b004e5e6b7",
+      "modified_time": 1764597542.2282062
+    },
+    {
+      "original_path": ".vscode/settings.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/.vscode/settings.json",
+      "relative_path": ".vscode/settings.json",
+      "size": 44,
+      "hash": "8ac7da09ca946de7c1a0e8aab1e0b78f69b889703a046ce2f9ffd3354edbe036",
+      "modified_time": 1764577040.166242
+    },
+    {
+      "original_path": "data/Exercises_Serie_1.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Exercises_Serie_1.pdf",
+      "relative_path": "data/Exercises_Serie_1.pdf",
+      "size": 46069,
+      "hash": "e8d69b4750d8cd6d1f853bb86d0288086a192381212e704bf626110aa31cb0be",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/Exercises_Serie_2.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Exercises_Serie_2.pdf",
+      "relative_path": "data/Exercises_Serie_2.pdf",
+      "size": 83390,
+      "hash": "a92de393d4f251ae2ba63e47cdfd084abdbbc6765ec78a251ce7e7d0563c1e4f",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/Exercises_Serie_3.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Exercises_Serie_3.pdf",
+      "relative_path": "data/Exercises_Serie_3.pdf",
+      "size": 103119,
+      "hash": "08c4327b877a15c5e5e5de4352df627276f83050705bf71e70d19150fb6417ee",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/5_Simulation_Fading_Matlab.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/5_Simulation_Fading_Matlab.pdf",
+      "relative_path": "data/5_Simulation_Fading_Matlab.pdf",
+      "size": 95237,
+      "hash": "71de7096a2634014a052360b1657fed091978456933e9648397d42249303295a",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/4_CDF_PDF_SNRs_After_Combining.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/4_CDF_PDF_SNRs_After_Combining.pdf",
+      "relative_path": "data/4_CDF_PDF_SNRs_After_Combining.pdf",
+      "size": 158937,
+      "hash": "214880613cef89bac7233f5a0fc8e3c708f680f2af78257c9ca20bd9d2932118",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/2_Rayleigh_Channels_Part1.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/2_Rayleigh_Channels_Part1.pdf",
+      "relative_path": "data/2_Rayleigh_Channels_Part1.pdf",
+      "size": 2625606,
+      "hash": "26eaddbb023529a4a11a7f0c2639b9c1fcf3639e9927ddb32dd8075bbefbedb3",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/conversations.db",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/conversations.db",
+      "relative_path": "data/conversations.db",
+      "size": 36864,
+      "hash": "d6e9ca2c39de7b2d36803657ed8b7593561ea43beebddb851478b3a0b6ee3b54",
+      "modified_time": 1764591548.015053
+    },
+    {
+      "original_path": "data/Syllabus_et_Plan_du_Cours.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Syllabus_et_Plan_du_Cours.pdf",
+      "relative_path": "data/Syllabus_et_Plan_du_Cours.pdf",
+      "size": 73488,
+      "hash": "9d8527655707a2ef81732f9ad854df06d8cc81cf1f2c7a5eb8fe591ef00cc9c7",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/analytics.db",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/analytics.db",
+      "relative_path": "data/analytics.db",
+      "size": 32768,
+      "hash": "5fbd4fdc7cf5cb5d3cf270fa72f625a4672ce8d484a4c9baae2ca98cbcd918de",
+      "modified_time": 1764589692.4711912
+    },
+    {
+      "original_path": "data/3_Rayleigh_Channels_Part2.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/3_Rayleigh_Channels_Part2.pdf",
+      "relative_path": "data/3_Rayleigh_Channels_Part2.pdf",
+      "size": 76750,
+      "hash": "eb166111528f0738e3845d666fde601af2f3bed90a3431bc3472a3a3bd2f01e7",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/1_Wireless_Communications_A_Goldsmith_(Ch.1__Ch.3).pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/1_Wireless_Communications_A_Goldsmith_(Ch.1__Ch.3).pdf",
+      "relative_path": "data/1_Wireless_Communications_A_Goldsmith_(Ch.1__Ch.3).pdf",
+      "size": 2530472,
+      "hash": "745a1bfd0d5c25d763746700980db89ee8bf18ccf603e8e15866cc4a8a8ac094",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/Slides_Techniques_Communications_Mobiles_Part1.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Slides_Techniques_Communications_Mobiles_Part1.pdf",
+      "relative_path": "data/Slides_Techniques_Communications_Mobiles_Part1.pdf",
+      "size": 2789292,
+      "hash": "05d3e9081c9e0d76e0c38f1ea2111006d5ff0a0b7134bfc1d0b30507010256e0",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/metadata.db",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/metadata.db",
+      "relative_path": "data/metadata.db",
+      "size": 49152,
+      "hash": "c085a8ab4c9e83fb541524abd1026e184285fa6f9aefc10e3fe5b47a52124156",
+      "modified_time": 1764589692.4625916
+    },
+    {
+      "original_path": "data/Slides_Techniques_Communications_Mobiles_Part3.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Slides_Techniques_Communications_Mobiles_Part3.pdf",
+      "relative_path": "data/Slides_Techniques_Communications_Mobiles_Part3.pdf",
+      "size": 771747,
+      "hash": "e5a3740895fb37ba774084e11347dc594ef8ec29cd449953f097c6dce9e17d7d",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/Slides_Techniques_Communications_Mobiles_Part2.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Slides_Techniques_Communications_Mobiles_Part2.pdf",
+      "relative_path": "data/Slides_Techniques_Communications_Mobiles_Part2.pdf",
+      "size": 1319208,
+      "hash": "d3b6946082442d0030bb18b3edf7a9375d4597152b824c595a55fc8be365085a",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/Slides_Techniques_Communications_Mobiles_Part4.pdf",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/Slides_Techniques_Communications_Mobiles_Part4.pdf",
+      "relative_path": "data/Slides_Techniques_Communications_Mobiles_Part4.pdf",
+      "size": 512913,
+      "hash": "a11f9e6a293ab0b6a4bc8f624d5d38bd9e25204ec7795fd399e06cd119668bc2",
+      "modified_time": 315536400.0
+    },
+    {
+      "original_path": "data/vocabulary/common_misspellings.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/vocabulary/common_misspellings.json",
+      "relative_path": "data/vocabulary/common_misspellings.json",
+      "size": 236,
+      "hash": "16b33571370b4f9cd285a9dfe38a159f155d59a82aa118e240bffdf36a708832",
+      "modified_time": 1764581120.570189
+    },
+    {
+      "original_path": "data/vocabulary/technical_terms.txt",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/vocabulary/technical_terms.txt",
+      "relative_path": "data/vocabulary/technical_terms.txt",
+      "size": 243,
+      "hash": "75f4ba2fb8041b7a2311d5008c3fa4c4aeea04124108c38c217f49270d2fd8d6",
+      "modified_time": 1764581120.5696714
+    },
+    {
+      "original_path": "data/vocabulary/ambiguous_terms.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/vocabulary/ambiguous_terms.json",
+      "relative_path": "data/vocabulary/ambiguous_terms.json",
+      "size": 250,
+      "hash": "294e2581d452646e7271448f12bc4fab6f3352b3ec901f284e489f927fae05b8",
+      "modified_time": 1764581120.570362
+    },
+    {
+      "original_path": "data/vocabulary/synonyms.json",
+      "backup_path": "backup/reorganization_backup_20251201_150255/data/vocabulary/synonyms.json",
+      "relative_path": "data/vocabulary/synonyms.json",
+      "size": 639,
+      "hash": "a738544ad5184eb05f43467e0f6e02d3f5286a0f1b084b61b1c980135a822e0d",
+      "modified_time": 1764581120.5699892
+    }
+  ],
+  "errors": []
+}

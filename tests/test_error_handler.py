@@ -5,7 +5,7 @@ import pytest
 import time
 import threading
 from unittest.mock import Mock, patch, MagicMock
-from utils.error_handler import (
+from src.utils.error_handler import (
     ErrorSeverity,
     ErrorCategory,
     RecoveryStrategy,

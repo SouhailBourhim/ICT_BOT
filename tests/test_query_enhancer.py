@@ -7,8 +7,8 @@ import json
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-from managers.query_enhancer import QueryEnhancer, SynonymEntry, SpellCorrectionResult, LanguageDetectionResult, ClarificationQuestion
-from models.base import EnhancedQuery, QueryIntent, AmbiguityReport, ConversationContext, Message
+from src.managers.query_enhancer import QueryEnhancer, SynonymEntry, SpellCorrectionResult, LanguageDetectionResult, ClarificationQuestion
+from src.models.base import EnhancedQuery, QueryIntent, AmbiguityReport, ConversationContext, Message
 from datetime import datetime
 
 

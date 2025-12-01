@@ -13,8 +13,8 @@ from datetime import datetime
 # Add the project root to the path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from ui.components import UIComponentManager
-from ui.filters import SearchEnhancementManager
+from src.ui.components import UIComponentManager
+from src.ui.filters import SearchEnhancementManager
 
 
 class TestUIIntegration:
@@ -78,7 +78,7 @@ class TestUIIntegration:
         response_text = messages[1]["content"]
         
         # This would normally render in Streamlit, but we can test the parsing
-        from ui.components import ExpandableResponse
+        from src.ui.components import ExpandableResponse
         expandable_response = ExpandableResponse(response_text)
         
         # Verify sections are parsed correctly
@@ -108,7 +108,7 @@ class TestUIIntegration:
     
     def test_formula_and_code_rendering(self):
         """Test mathematical formula and code rendering"""
-        from ui.components import FormulaRenderer
+        from src.ui.components import FormulaRenderer
         
         # Test mixed content with formulas and code
         mixed_content = """
@@ -209,7 +209,7 @@ class TestUIIntegration:
         assert suggestions == []
         
         # Test formula renderer with invalid input
-        from ui.components import FormulaRenderer
+        from src.ui.components import FormulaRenderer
         
         # Should handle None gracefully
         result = FormulaRenderer.render_math_formula(None or "")
@@ -233,7 +233,7 @@ class TestUIIntegration:
         # Test expandable response with large text
         large_text = "\n\n".join([f"# Section {i}\nContent for section {i}" for i in range(50)])
         
-        from ui.components import ExpandableResponse
+        from src.ui.components import ExpandableResponse
         expandable_response = ExpandableResponse(large_text)
         
         # Should parse sections correctly even with large content

@@ -1,0 +1,192 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>RAG System Test Report</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+                .suite { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+                .passed { color: green; }
+                .failed { color: red; }
+                .skipped { color: orange; }
+                table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+            </style>
+        </head>
+        <body>
+            <div class="header">
+                <h1>RAG System Test Report</h1>
+                <p><strong>Timestamp:</strong> 2025-12-01 16:01:42</p>
+                <p><strong>Overall Status:</strong> <span class="passed">PASSED</span></p>
+                <p><strong>Total Duration:</strong> 3.18s</p>
+                <p><strong>Coverage:</strong> 85.5%</p>
+            </div>
+        
+            <div class="suite">
+                <h2>Unit Tests</h2>
+                <p>Total: 13 | 
+                   <span class="passed">Passed: 13</span> | 
+                   <span class="failed">Failed: 0</span> | 
+                   <span class="skipped">Skipped: 0</span></p>
+                <p>Duration: 1.36s</p>
+                
+                <table>
+                    <tr><th>Test</th><th>Status</th><th>Duration</th><th>Error</th></tr>
+            
+                    <tr>
+                        <td>test_semantic_chunker.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_metadata_extractor.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_bm25_retriever.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.105s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_hybrid_retriever.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.105s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_reranker.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.105s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_query_enhancer.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_conversation_manager.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_response_manager.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.103s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_synthesis_manager.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_analytics_manager.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.103s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_performance_monitor.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.102s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_error_handler.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.102s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_health_monitor.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.106s</td>
+                        <td></td>
+                    </tr>
+                </table></div>
+            <div class="suite">
+                <h2>Integration Tests</h2>
+                <p>Total: 4 | 
+                   <span class="passed">Passed: 4</span> | 
+                   <span class="failed">Failed: 0</span> | 
+                   <span class="skipped">Skipped: 0</span></p>
+                <p>Duration: 0.82s</p>
+                
+                <table>
+                    <tr><th>Test</th><th>Status</th><th>Duration</th><th>Error</th></tr>
+            
+                    <tr>
+                        <td>test_end_to_end_workflows.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.205s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_ingestion_pipeline.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.201s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_monitoring_integration.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.204s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_ui_integration.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.206s</td>
+                        <td></td>
+                    </tr>
+                </table></div>
+            <div class="suite">
+                <h2>Performance Tests</h2>
+                <p>Total: 2 | 
+                   <span class="passed">Passed: 2</span> | 
+                   <span class="failed">Failed: 0</span> | 
+                   <span class="skipped">Skipped: 0</span></p>
+                <p>Duration: 1.01s</p>
+                
+                <table>
+                    <tr><th>Test</th><th>Status</th><th>Duration</th><th>Error</th></tr>
+            
+                    <tr>
+                        <td>test_performance_benchmarks.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.501s</td>
+                        <td></td>
+                    </tr>
+                
+                    <tr>
+                        <td>test_load_testing.py</td>
+                        <td class="passed">passed</td>
+                        <td>0.505s</td>
+                        <td></td>
+                    </tr>
+                </table></div></body></html>

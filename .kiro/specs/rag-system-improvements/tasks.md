@@ -84,9 +84,9 @@
     - Write unit tests for follow-up detection accuracy
     - _Requirements: 3.1, 3.2_
 
-- [ ] 5. Build query enhancement engine
+- [x] 5. Build query enhancement engine
 
-  - [ ] 5.1 Implement query expansion and spell correction
+  - [x] 5.1 Implement query expansion and spell correction
 
     - Create domain-specific synonym dictionary for technical terms
     - Implement fuzzy string matching for spell correction
@@ -94,7 +94,7 @@
     - Write unit tests for query enhancement accuracy
     - _Requirements: 4.1, 4.3_
 
-  - [ ] 5.2 Create ambiguity detection and clarification system
+  - [x] 5.2 Create ambiguity detection and clarification system
     - Implement query ambiguity scoring algorithm
     - Create clarification question generation system
     - Build multi-language query detection and handling

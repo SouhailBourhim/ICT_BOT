@@ -164,3 +164,8 @@ try:
     config.validate()
 except ValueError as e:
     print(f"Warning: {e}")
+
+
+def get_settings() -> SystemConfig:
+    """Get the global configuration instance."""
+    return config

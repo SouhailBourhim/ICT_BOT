@@ -144,3 +144,63 @@ class ErrorResponse:
     error_code: str
     recovery_suggestions: List[str]
     timestamp: datetime
+
+
+@dataclass
+class QueryAnalytics:
+    """Analytics data for query processing."""
+    query_id: str
+    conversation_id: str
+    user_id: str
+    original_query: str
+    enhanced_query: str
+    query_intent: QueryIntent
+    timestamp: datetime
+    processing_time: float
+    retrieval_count: int
+    response_length: int
+    confidence_score: float
+    sources_used: List[str]
+    metadata: Dict[str, Any]
+
+
+@dataclass
+class ResponseQualityMetrics:
+    """Metrics for response quality assessment."""
+    response_id: str
+    query_id: str
+    relevance_score: float
+    accuracy_score: float
+    completeness_score: float
+    citation_quality: float
+    user_satisfaction: Optional[float]
+    feedback_timestamp: Optional[datetime]
+    metadata: Dict[str, Any]
+
+
+@dataclass
+class PerformanceMetrics:
+    """System performance metrics."""
+    metric_id: str
+    operation: str
+    timestamp: datetime
+    duration: float
+    memory_usage: float
+    cpu_usage: float
+    success: bool
+    error_message: Optional[str]
+    metadata: Dict[str, Any]
+
+
+@dataclass
+class UserFeedback:
+    """User feedback data."""
+    feedback_id: str
+    conversation_id: str
+    message_id: str
+    user_id: str
+    rating: int  # 1-5 scale
+    feedback_type: str  # helpful, accurate, complete, etc.
+    comments: Optional[str]
+    timestamp: datetime
+    metadata: Dict[str, Any]

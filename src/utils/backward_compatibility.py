@@ -141,7 +141,7 @@ class LegacyResponseAdapter:
         """Basic response generation fallback."""
         try:
             from langchain_ollama import ChatOllama
-            from langchain.prompts import ChatPromptTemplate
+            from langchain_core.prompts import ChatPromptTemplate
             
             config = get_settings()
             llm = ChatOllama(model=config.model.ollama_model)

@@ -11,7 +11,7 @@ from typing import List, Dict, Any, Optional, Tuple
 from datetime import datetime
 
 from langchain_ollama import ChatOllama
-from langchain.prompts import ChatPromptTemplate
+from langchain_core.prompts import ChatPromptTemplate
 
 from src.models.base import Response, RetrievalResult, ConversationContext, ProcessedChunk
 from .interfaces import ResponseManagerInterface
